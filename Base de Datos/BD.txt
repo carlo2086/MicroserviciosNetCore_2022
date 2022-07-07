@@ -1,0 +1,174 @@
+CREATE SEQUENCE sys.persona_seq
+    INCREMENT 1
+    START 1
+    MINVALUE 1
+    MAXVALUE 9223372036854775807
+    CACHE 1;
+
+ALTER SEQUENCE sys.persona_seq
+    OWNER TO postgres;
+-----------------------------------------------------------------------
+create table sys.personal(
+ 	id integer NOT NULL DEFAULT nextval('sys.persona_seq'::regclass),
+  	apellido_paterno character varying(500) COLLATE pg_catalog."default",
+    apellido_materno character varying(200) COLLATE pg_catalog."default",
+    nombre character varying(150) COLLATE pg_catalog."default",
+    dni character varying(50) COLLATE pg_catalog."default"
+)
+
+-----------------------------------------------------------------------
+CREATE SEQUENCE sys.logerror_id_seq
+    INCREMENT 1
+    START 1
+    MINVALUE 1
+    MAXVALUE 9223372036854775807
+    CACHE 1;
+
+ALTER SEQUENCE sys.logerror_id_seq
+    OWNER TO postgres;
+		
+---------------------------------------------------------------------
+CREATE TABLE sys.logerror
+(
+    id integer NOT NULL DEFAULT nextval('sys.logerror_id_seq'::regclass),
+    tabla character varying(100) COLLATE pg_catalog."default",
+    mensaje text COLLATE pg_catalog."default",
+    fecha date
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE sys.logerror
+    OWNER to postgres;
+	
+-------------------------------------------------------------------
+CREATE OR REPLACE FUNCTION sys.personal_listar(
+	)
+    RETURNS TABLE(id integer, paterno character varying, materno character varying, nombre character varying, dni character varying) 
+    LANGUAGE 'plpgsql'
+
+    COST 100
+    VOLATILE 
+    ROWS 1000
+AS $BODY$                                   
+BEGIN 
+    RETURN QUERY
+      	SELECT pers.id, pers.apellido_paterno,  pers.apellido_materno, pers.nombre as nombres, pers.dni
+		FROM sys.personal pers
+		order by pers.id;
+END; 
+$BODY$;
+
+ALTER FUNCTION sys.personal_listar()
+    OWNER TO postgres;
+	
+------------------------------------------------------------------
+
+CREATE OR REPLACE FUNCTION sys.personal_insertar(
+	v_paterno character varying,
+	v_materno character varying,
+	v_nombre character varying,
+	v_dni character varying
+	)
+    RETURNS SETOF integer 
+    LANGUAGE 'plpgsql'
+
+    COST 100
+    VOLATILE 
+    ROWS 1000
+AS $BODY$   
+BEGIN 
+	 return query
+	  WITH d as (
+       INSERT INTO sys.personal(
+		apellido_paterno, apellido_materno, nombre, dni)
+		VALUES ( v_paterno, v_materno, v_nombre, v_dni)
+	   RETURNING id
+       )
+	  SELECT id FROM d;
+END; 
+$BODY$;
+
+
+ALTER FUNCTION sys.personal_insertar(character varying, character varying, character varying, character varying)
+    OWNER TO postgres;
+	
+------------------------------------------------------------
+
+CREATE OR REPLACE FUNCTION sys.personal_id(
+	v_id integer)
+    RETURNS TABLE(id integer, paterno character varying, materno character varying, nombres character varying, dni character varying) 
+    LANGUAGE 'plpgsql'
+
+    COST 100
+    VOLATILE 
+    ROWS 1000
+AS $BODY$                                   
+BEGIN 
+    RETURN QUERY
+      select  per.id,  per.apellido_paterno,  per.apellido_materno, per.nombre as nombres, per.dni
+	  from sys.personal per
+	  where per.id = v_id;
+END; 
+$BODY$;
+
+ALTER FUNCTION sys.personal_id(integer)
+    OWNER TO postgres;
+	
+------------------------------------------------------------------------
+CREATE OR REPLACE FUNCTION sys.personal_actualizar(
+	v_id integer,
+	v_paterno character varying,
+	v_materno character varying,
+	v_nombre character varying,
+	v_dni character varying)
+    RETURNS SETOF integer 
+    LANGUAGE 'plpgsql'
+
+    COST 100
+    VOLATILE 
+    ROWS 1000
+AS $BODY$   
+BEGIN 
+	 return query
+	  WITH d as (
+       UPDATE sys.personal SET 
+			apellido_paterno = v_paterno,
+		 	apellido_materno = v_materno, 
+		  	nombre = v_nombre, 
+		  	dni = v_dni
+		WHERE id = v_id   RETURNING id
+       )
+	  SELECT id FROM d;
+END; 
+$BODY$;
+
+ALTER FUNCTION sys.personal_actualizar(integer,character varying, character varying, character varying, character varying)
+    OWNER TO postgres;
+______________________________________________
+
+CREATE OR REPLACE FUNCTION sys.insert_error(
+	v_mensaje text,
+	v_tabla character varying)
+    RETURNS SETOF bigint 
+    LANGUAGE 'plpgsql'
+
+    COST 100
+    VOLATILE 
+    ROWS 1000
+AS $BODY$   
+BEGIN 
+	 return query
+	  WITH d as (
+       INSERT INTO sys.logerror(tabla, mensaje, fecha)
+	   VALUES (v_tabla,v_mensaje, CURRENT_DATE)
+	   RETURNING id
+       )
+	  SELECT COUNT(*) FROM d;
+END; 
+$BODY$;
+
+ALTER FUNCTION sys.insert_error(text, character varying)
+    OWNER TO postgres;

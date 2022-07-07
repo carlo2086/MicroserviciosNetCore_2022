@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "0WyOW0+pbOgBdfiw+ehvhQwgp9NkHvn1dJdka415Zk2YwXgMo63vUKxwCSUWdsyOljMN3F6EydYBgGuSNLwNuQ==",
+  "success": true,
+  "projectFilePath": "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\Repositorio\\Repositorio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ABRAHAM\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\ABRAHAM\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\ABRAHAM\\.nuget\\packages\\npgsql\\6.0.5\\npgsql.6.0.5.nupkg.sha512",
+    "C:\\Users\\ABRAHAM\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

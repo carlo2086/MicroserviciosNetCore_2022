@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Capa.Dominio/1.0.0": {
+        "runtime": {
+          "Capa.Dominio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Capa.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+D:\2022\FIIS\Taller\TallerDemo\Taller Microservicios\IServicios\bin\Debug\net5.0\IServicios.deps.json
+D:\2022\FIIS\Taller\TallerDemo\Taller Microservicios\IServicios\bin\Debug\net5.0\IServicios.dll
+D:\2022\FIIS\Taller\TallerDemo\Taller Microservicios\IServicios\bin\Debug\net5.0\ref\IServicios.dll
+D:\2022\FIIS\Taller\TallerDemo\Taller Microservicios\IServicios\bin\Debug\net5.0\IServicios.pdb
+D:\2022\FIIS\Taller\TallerDemo\Taller Microservicios\IServicios\bin\Debug\net5.0\Capa.Dominio.dll
+D:\2022\FIIS\Taller\TallerDemo\Taller Microservicios\IServicios\bin\Debug\net5.0\Capa.Dominio.pdb
+D:\2022\FIIS\Taller\TallerDemo\Taller Microservicios\IServicios\obj\Debug\net5.0\IServicios.csproj.AssemblyReference.cache
+D:\2022\FIIS\Taller\TallerDemo\Taller Microservicios\IServicios\obj\Debug\net5.0\IServicios.GeneratedMSBuildEditorConfig.editorconfig
+D:\2022\FIIS\Taller\TallerDemo\Taller Microservicios\IServicios\obj\Debug\net5.0\IServicios.AssemblyInfoInputs.cache
+D:\2022\FIIS\Taller\TallerDemo\Taller Microservicios\IServicios\obj\Debug\net5.0\IServicios.AssemblyInfo.cs
+D:\2022\FIIS\Taller\TallerDemo\Taller Microservicios\IServicios\obj\Debug\net5.0\IServicios.csproj.CoreCompileInputs.cache
+D:\2022\FIIS\Taller\TallerDemo\Taller Microservicios\IServicios\obj\Debug\net5.0\IServicios.csproj.CopyComplete
+D:\2022\FIIS\Taller\TallerDemo\Taller Microservicios\IServicios\obj\Debug\net5.0\IServicios.dll
+D:\2022\FIIS\Taller\TallerDemo\Taller Microservicios\IServicios\obj\Debug\net5.0\ref\IServicios.dll
+D:\2022\FIIS\Taller\TallerDemo\Taller Microservicios\IServicios\obj\Debug\net5.0\IServicios.pdb

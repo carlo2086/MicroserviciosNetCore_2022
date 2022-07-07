@@ -1,0 +1,296 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\Servicios\\Servicios.csproj": {}
+  },
+  "projects": {
+    "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\Capa.Dominio.Sistema\\Capa.Dominio.Sistema.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\Capa.Dominio.Sistema\\Capa.Dominio.Sistema.csproj",
+        "projectName": "Capa.Dominio.Sistema",
+        "projectPath": "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\Capa.Dominio.Sistema\\Capa.Dominio.Sistema.csproj",
+        "packagesPath": "C:\\Users\\ABRAHAM\\.nuget\\packages\\",
+        "outputPath": "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\Capa.Dominio.Sistema\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ABRAHAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\Capa.Dominio\\Capa.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\Capa.Dominio\\Capa.Dominio.csproj",
+        "projectName": "Capa.Dominio",
+        "projectPath": "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\Capa.Dominio\\Capa.Dominio.csproj",
+        "packagesPath": "C:\\Users\\ABRAHAM\\.nuget\\packages\\",
+        "outputPath": "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\Capa.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ABRAHAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\IRepositorio\\IRepositorio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\IRepositorio\\IRepositorio.csproj",
+        "projectName": "IRepositorio",
+        "projectPath": "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\IRepositorio\\IRepositorio.csproj",
+        "packagesPath": "C:\\Users\\ABRAHAM\\.nuget\\packages\\",
+        "outputPath": "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\IRepositorio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ABRAHAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\Capa.Dominio.Sistema\\Capa.Dominio.Sistema.csproj": {
+                "projectPath": "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\Capa.Dominio.Sistema\\Capa.Dominio.Sistema.csproj"
+              },
+              "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\Capa.Dominio\\Capa.Dominio.csproj": {
+                "projectPath": "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\Capa.Dominio\\Capa.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\IServicios\\IServicios.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\IServicios\\IServicios.csproj",
+        "projectName": "IServicios",
+        "projectPath": "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\IServicios\\IServicios.csproj",
+        "packagesPath": "C:\\Users\\ABRAHAM\\.nuget\\packages\\",
+        "outputPath": "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\IServicios\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ABRAHAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\Capa.Dominio\\Capa.Dominio.csproj": {
+                "projectPath": "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\Capa.Dominio\\Capa.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\Servicios\\Servicios.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\Servicios\\Servicios.csproj",
+        "projectName": "Servicios",
+        "projectPath": "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\Servicios\\Servicios.csproj",
+        "packagesPath": "C:\\Users\\ABRAHAM\\.nuget\\packages\\",
+        "outputPath": "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\Servicios\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ABRAHAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\IRepositorio\\IRepositorio.csproj": {
+                "projectPath": "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\IRepositorio\\IRepositorio.csproj"
+              },
+              "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\IServicios\\IServicios.csproj": {
+                "projectPath": "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\IServicios\\IServicios.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

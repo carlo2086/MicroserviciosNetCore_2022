@@ -1,0 +1,11 @@
+D:\2022\FIIS\Taller\TallerDemo\Taller Microservicios\wsTaller_01\obj\Release\net5.0\PubTmp\Out\wsTaller_01.exe
+D:\2022\FIIS\Taller\TallerDemo\Taller Microservicios\wsTaller_01\obj\Release\net5.0\PubTmp\Out\appsettings.Development.json
+D:\2022\FIIS\Taller\TallerDemo\Taller Microservicios\wsTaller_01\obj\Release\net5.0\PubTmp\Out\appsettings.json
+D:\2022\FIIS\Taller\TallerDemo\Taller Microservicios\wsTaller_01\obj\Release\net5.0\PubTmp\Out\wsTaller_01.dll
+D:\2022\FIIS\Taller\TallerDemo\Taller Microservicios\wsTaller_01\obj\Release\net5.0\PubTmp\Out\wsTaller_01.deps.json
+D:\2022\FIIS\Taller\TallerDemo\Taller Microservicios\wsTaller_01\obj\Release\net5.0\PubTmp\Out\wsTaller_01.runtimeconfig.json
+D:\2022\FIIS\Taller\TallerDemo\Taller Microservicios\wsTaller_01\obj\Release\net5.0\PubTmp\Out\wsTaller_01.pdb
+D:\2022\FIIS\Taller\TallerDemo\Taller Microservicios\wsTaller_01\obj\Release\net5.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\2022\FIIS\Taller\TallerDemo\Taller Microservicios\wsTaller_01\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\2022\FIIS\Taller\TallerDemo\Taller Microservicios\wsTaller_01\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\2022\FIIS\Taller\TallerDemo\Taller Microservicios\wsTaller_01\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

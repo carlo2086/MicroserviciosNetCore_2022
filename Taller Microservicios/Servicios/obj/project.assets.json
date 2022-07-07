@@ -1,0 +1,146 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Capa.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Capa.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Capa.Dominio.dll": {}
+        }
+      },
+      "Capa.Dominio.Sistema/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Capa.Dominio.Sistema.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Capa.Dominio.Sistema.dll": {}
+        }
+      },
+      "IRepositorio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Capa.Dominio": "1.0.0",
+          "Capa.Dominio.Sistema": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IRepositorio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IRepositorio.dll": {}
+        }
+      },
+      "IServicios/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Capa.Dominio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IServicios.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IServicios.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Capa.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../Capa.Dominio/Capa.Dominio.csproj",
+      "msbuildProject": "../Capa.Dominio/Capa.Dominio.csproj"
+    },
+    "Capa.Dominio.Sistema/1.0.0": {
+      "type": "project",
+      "path": "../Capa.Dominio.Sistema/Capa.Dominio.Sistema.csproj",
+      "msbuildProject": "../Capa.Dominio.Sistema/Capa.Dominio.Sistema.csproj"
+    },
+    "IRepositorio/1.0.0": {
+      "type": "project",
+      "path": "../IRepositorio/IRepositorio.csproj",
+      "msbuildProject": "../IRepositorio/IRepositorio.csproj"
+    },
+    "IServicios/1.0.0": {
+      "type": "project",
+      "path": "../IServicios/IServicios.csproj",
+      "msbuildProject": "../IServicios/IServicios.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "IRepositorio >= 1.0.0",
+      "IServicios >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ABRAHAM\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\Servicios\\Servicios.csproj",
+      "projectName": "Servicios",
+      "projectPath": "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\Servicios\\Servicios.csproj",
+      "packagesPath": "C:\\Users\\ABRAHAM\\.nuget\\packages\\",
+      "outputPath": "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\Servicios\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ABRAHAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\IRepositorio\\IRepositorio.csproj": {
+              "projectPath": "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\IRepositorio\\IRepositorio.csproj"
+            },
+            "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\IServicios\\IServicios.csproj": {
+              "projectPath": "D:\\2022\\FIIS\\Taller\\TallerDemo\\Taller Microservicios\\IServicios\\IServicios.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

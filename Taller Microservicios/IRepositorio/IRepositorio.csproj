@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Capa.Dominio.Sistema\Capa.Dominio.Sistema.csproj" />
+    <ProjectReference Include="..\Capa.Dominio\Capa.Dominio.csproj" />
+  </ItemGroup>
+
+</Project>
